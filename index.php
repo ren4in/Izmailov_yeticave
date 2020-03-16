@@ -12,7 +12,7 @@ $Announcement_list
     = [
     [
         "name" => "2014 Rossignol District Snowboard",
-        "category" => "boards",
+        "category" => "Доски и лыжи",
         "price" => 10999,
         "picture" => "img/lot-1.jpg"
 
@@ -20,21 +20,21 @@ $Announcement_list
     ],
     [
         "name" => "DC Ply Mens 2016/2017 Snowboard",
-        "category" => "boards",
+        "category" => "Доски и лыжи",
         "price" => 159999,
         "picture" => "img/lot-2.jpg"
 
     ],
     [
         "name" => "Крепления Union Contact Pro 2015 года размер L/XL",
-        "category" => "mounts",
+        "category" => "Крепления",
         "price" => 8000,
         "picture" => "img/lot-3.jpg"
 
     ],
     [
         "name" => "Ботинки для сноуборда DC Mutiny Charocal",
-        "category" => "boots",
+        "category" => "Одежда",
         "price" => 10999,
         "picture" => "img/lot-4.jpg"
 
@@ -42,7 +42,7 @@ $Announcement_list
 
     [
         "name" => "Куртка для сноуборда DC Mutiny Charocal",
-        "category" => "clothes",
+        "category" => "Разное",
         "price" => 7500,
         "picture" => "img/lot-5.jpg"
 
