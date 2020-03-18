@@ -72,7 +72,7 @@ function SplitNum($num1, $rub=true)
         $num2=$num1;
 
     if ($rub==true)
-        return ($num2)." ₽";
+        return ($num2)."<b class=\"rub\">р</b>";
     else
         return $num2;
 
