@@ -52,43 +52,34 @@ $Announcement_list
         "category" => "about",
         "price" => 5400,
         "picture" => "img/lot-6.jpg"
-<<<<<<< HEAD
 
     ]
 
 
 
-=======
->>>>>>> 5583fc90d153b78c339c66d30a14d9a8c829fb3f
 
-    ]
 
 
 ];
 
 function SplitNum($num1, $rub=true)
 {
-$num1=ceil($num1);
+    $num1=ceil($num1);
     if ($num1>=1000)
 
-          $num2=number_format($num1, 0, ',', ' ');
+        $num2=number_format($num1, 0, ',', ' ');
     else
         $num2=$num1;
 
     if ($rub==true)
-    return ($num2)." ₽";
+        return ($num2)." ₽";
     else
-    return $num2;
+        return $num2;
 
-<<<<<<< HEAD
 
 
 }
 /*  img/lot-1.jpg */
-=======
-];
- /*  img/lot-1.jpg */
->>>>>>> 5583fc90d153b78c339c66d30a14d9a8c829fb3f
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -120,11 +111,7 @@ $num1=ceil($num1);
                         <img src="img/user.jpg" width="40" height="40" alt="Пользователь">
                     </div>
                     <div class="user-menu__logged">
-<<<<<<< HEAD
                         <p > <?= $user_name; ?> </p>
-=======
-                        <p > <?php print($user_name); ?> </p>
->>>>>>> 5583fc90d153b78c339c66d30a14d9a8c829fb3f
                     </div>
 
                 <?php /* УСЛОВИЕ */ elseif ($is_auth==false): ?>
@@ -153,11 +140,7 @@ $num1=ceil($num1);
             <ul class="promo__list">
                 <!--заполните этот список из массива категорий-->
                 <li class="promo__item promo__item--boards"  <?php foreach ($Categories_list as $value): ?>>
-<<<<<<< HEAD
                     <a class="promo__link" href="pages/all-lots.html"> <?=($value); ?></a>
-=======
-                    <a class="promo__link" href="pages/all-lots.html"> <?php print ($value); ?></a>
->>>>>>> 5583fc90d153b78c339c66d30a14d9a8c829fb3f
                 </li>
                 <?php endforeach; ?>
 
@@ -172,7 +155,6 @@ $num1=ceil($num1);
                 <!--заполните этот список из массива с товарами-->
                 <li class="lots__item lot">
                     <div class="lot__image">
-<<<<<<< HEAD
                         <img src=<?= $value['picture']; ?> width="350" height="260" alt="">
                     </div>
                     <div class="lot__info">
@@ -182,17 +164,6 @@ $num1=ceil($num1);
                             <div class="lot__rate">
                                 <span class="lot__amount">Стартовая цена</span>
                                 <span class="lot__cost"> <?=SplitNum(($value['price']), true); ?>
-=======
-                        <img src=<?php  print ($value['picture']); ?> width="350" height="260" alt="">
-                    </div>
-                    <div class="lot__info">
-                        <span class="lot__category"><?php print($Categories_list[ $value['category']]); ?> </span>
-                        <h3 class="lot__title"><a class="text-link" href="pages/lot.html"> <?php print($value['name']); ?> </a></h3>
-                        <div class="lot__state">
-                            <div class="lot__rate">
-                                <span class="lot__amount">Стартовая цена</span>
-                                <span class="lot__cost"> <?php print ($value['price']); ?><b class="rub">р</b></span>
->>>>>>> 5583fc90d153b78c339c66d30a14d9a8c829fb3f
                             </div>
                             <div class="lot__timer timer">
                                 <?php endforeach; ?>
@@ -211,11 +182,7 @@ $num1=ceil($num1);
         <ul class="nav__list container"  <?php foreach ($Categories_list as $value): ?> >
             <!--заполните этот список из массива категорий-->
             <li class="nav__item">
-<<<<<<< HEAD
                 <a href="pages/all-lots.html"> <?=($value); ?> ></a>
-=======
-                <a href="pages/all-lots.html"> <?php print($value); ?> ></a>
->>>>>>> 5583fc90d153b78c339c66d30a14d9a8c829fb3f
             </li>
             <?php endforeach; ?>
 
