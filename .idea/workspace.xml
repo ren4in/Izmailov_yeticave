@@ -46,9 +46,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584342069905</updated>
+<<<<<<< HEAD
       <workItem from="1584342072465" duration="5204000" />
       <workItem from="1584519405223" duration="1888000" />
       <workItem from="1584521379908" duration="2762000" />
+=======
+      <workItem from="1584342072465" duration="12091000" />
+      <workItem from="1584440905716" duration="3029000" />
+>>>>>>> 5583fc90d153b78c339c66d30a14d9a8c829fb3f
     </task>
     <servers />
   </component>
@@ -56,6 +61,7 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="552" y="181" key="#Notifications" timestamp="1584521274952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -64,6 +70,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584521411217" />
+=======
+    <state width="498" height="446" key="SwitcherDM" timestamp="1584441054612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1584441054612" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584440906686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584440906686" />
+>>>>>>> 5583fc90d153b78c339c66d30a14d9a8c829fb3f
     <state x="616" y="240" key="run.anything.popup" timestamp="1584350228813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
