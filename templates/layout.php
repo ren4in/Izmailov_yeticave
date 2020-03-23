@@ -1,18 +1,4 @@
-<?php
-$is_auth = rand(0, 1);
-
-$user_name = 'Ren4in'; // укажите здесь ваше имя
-$Categories_list = [
-    "boards" => "Доски и лыжи",
-    "mounts" => "Крепления",
-    "boots" => "Ботинки",
-    "clothes" => "Одежда",
-    "about" => "Разное"];
-
-
-
-/*  img/lot-1.jpg */
-?>
+ 
 <!DOCTYPE html>
 <html lang="ru">
 <head>
