@@ -1,3 +1,4 @@
+
 <section class="promo">
     <h2 class="promo__title">Нужен стафф для катки?</h2>
     <p class="promo__text">На нашем интернет-аукционе ты найдёшь самое эксклюзивное сноубордическое и горнолыжное снаряжение.</p>
@@ -30,8 +31,10 @@
                         <span class="lot__cost"> <?=SplitNum(($value['price']), true); ?>
                     </div>
                     <div class="lot__timer timer">
-                        <?php endforeach; ?>
-                        12:23
+                       <?= Timer('tomorrow'); ?>
+                        <?php
+                        endforeach; ?>
+
                     </div>
                 </div>
             </div>

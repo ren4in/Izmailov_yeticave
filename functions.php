@@ -79,7 +79,18 @@ function SplitNum($num1, $rub=true)
 
 
 }
+Function Timer($final)
+{
 
+    $now=strtotime("now");
+    $tommorow=strtotime($final);
+    $difference=$tommorow-$now;
+    $hour=floor($difference/(3600));
+    $minute=floor(($difference-$hour*(3600))/60);
+    $timer=sprintf("%d:%d",$hour,$minute);
+
+    return $timer;
+}
 function include_template($name, $data)
 {
 
